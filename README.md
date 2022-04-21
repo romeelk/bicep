@@ -104,8 +104,8 @@ param appServiceAppName string = 'toylaunch${uniqueString(resourceGroup().id)}'
 ## Deploy the template
 
 ```
-RGBNAME=rg-uks-storage
- az group create --name $RGNAME --location uksouth
+RGNAME=rg-uks-storage
+ az group create --location uksouth --resource-group $RGNAME
  az configure --defaults group=$RGNAME
 ```
 
