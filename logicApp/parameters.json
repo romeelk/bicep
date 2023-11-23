@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "3691947b-a7bf-42a9-bac3-a1e8bad95287"
+        },
+        "name": {
+            "value": "testapprom"
+        },
+        "location": {
+            "value": "UK South"
+        },
+        "hostingPlanName": {
+            "value": "ASP-logicaapprom-aae6"
+        },
+        "serverFarmResourceGroup": {
+            "value": "logicaapp-rom"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        },
+        "storageAccountName": {
+            "value": "logicaapprom97fb"
+        },
+        "netFrameworkVersion": {
+            "value": "v6.0"
+        },
+        "sku": {
+            "value": "WorkflowStandard"
+        },
+        "skuCode": {
+            "value": "WS1"
+        },
+        "workerSize": {
+            "value": "3"
+        },
+        "workerSizeId": {
+            "value": "3"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        }
+    }
+}
